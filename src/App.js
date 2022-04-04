@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import React from  'react';
 
+import NavBar from "./layouts/Header/Header";
+import Button from "@mui/material/Button";
+import { ThemeProvider } from '@mui/material/styles';
+import theme from "./themeConfig";
+import Atractivos from './pages/Atractivos';
+import Form from './pages/Form/form';
+
+function App(){
+    return(
+<ThemeProvider theme={theme}> 
+<NavBar/>
+<Button  variant="contained" color="primary">boton1</Button>
+
+<Button variant="contained" color="secondary">Boton2</Button>
+<Atractivos/>
+<Form />   
+        
+        
+    
+
+
+ </ThemeProvider>
+        
+    );
+};
 export default App;

@@ -1,0 +1,18 @@
+.proof{
+  display: flex;
+  justify-content:flex-start;
+  
+}
+
+.menu-barra{
+display: flex;
+justify-content:flex-end;
+align-items: flex-end;
+list-style: none;
+font-weight: bold;
+
+}
+.menu-barra li a {
+    text-decoration: none;
+    margin: 10px;
+  }
