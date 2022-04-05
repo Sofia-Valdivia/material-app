@@ -7,6 +7,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import theme from "./themeConfig";
 import Atractivos from './pages/Atractivos';
 import Form from './pages/Form/form';
+import Carrusel from './components/CarouselSierra';
 
 function App(){
     return(
@@ -21,7 +22,7 @@ function App(){
         
     
 
-
+<Carrusel/>
  </ThemeProvider>
         
     );

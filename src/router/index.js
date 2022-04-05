@@ -1,5 +1,6 @@
+import React from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "../layouts/Header"
+import NavBar from "../layouts/Header/Header";
 import Atractivos from "../pages/Atractivos"
 import Form from "../pages/Form/form";
 
@@ -10,7 +11,7 @@ const Router = () => {
       <BrowserRouter>
         <Routes>
 <Route>
-   <Route element={<Header />}/>
+   <NavBar/>
    <Route path="/" element={<Atractivos />} />
    <Route path="form" element={<Form />} />   
 

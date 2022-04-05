@@ -12,6 +12,7 @@ const Navbar=()=>{
     
     <AppBar  position="static" >
        <Grid  container alignItems="center" ml={5} mr={5}>
+         
       <Toolbar>
         
       <img src={logoCode} width={60} alt="" />
