@@ -2,53 +2,51 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel"
 import CarouselCaption from 'react-bootstrap/CarouselCaption';
 import CarouselItem from 'react-bootstrap/CarouselItem';
-import bañosIncaCajamarcaSierra from "../../assest/imagenes/bañosIncaCajamarcaSierra.jpg"
-import machupicchuSierra from "../../assest/imagenes/machupicchuSierra.jpg"
-import lagoTiticacaSierra from "../../assest/imagenes/lagoTiticacaSierra.jpg"
+import pacayaSamiriaLoreto from "../../assest/imagenes/pacayaSamiriaLoreto.jpg"
+import cataratasGoctaAmazonas from "../../assest/imagenes/cataratasGoctaAmazonas.webp"
+import manuMadredeDios from "../../assest/imagenes/manuMadredeDios.png"
 
-const CarruselSierra=()=>{
+const CarruselSelva=()=>{
     return(
 
 <Carousel>
   <Carousel.Item interval={1000}>
     <img
       className="d-block w-100"
-      src={bañosIncaCajamarcaSierra}
-      alt="cajamarcabañosInca"
+      src={pacayaSamiriaLoreto}
+      alt="pacayaSamiriaLoreto"
     />
     <Carousel.Caption>
-      <h1>Cajamarca</h1>
-      <p>Baños termales del Inca</p>
+      <h1>Loreto</h1>
+      <p>Pacaya Samiria</p>
     </Carousel.Caption>
   </Carousel.Item>
 
   <Carousel.Item interval={500}>
     <img
       className="d-block w-100"
-      src={machupicchuSierra}
-      alt="cuscoMachupicchu"
+      src={cataratasGoctaAmazonas}
+      alt="cataratasGoctaAmazonas"
     />
     <Carousel.Caption>
-      <h1>Cusco</h1>
-      <p>Machupicchu</p>
+      <h1>Amazonas</h1>
+      <p>Cataratas de Gocta</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={lagoTiticacaSierra}
-      alt="punoLagoTiticaca"
+      src={manuMadredeDios}
+      alt="manuMadredeDios"
     />
     <Carousel.Caption>
-      <h1>Puno</h1>
-      <p>Lago Titicaca</p>
+      <h1>Madre de Dios</h1>
+      <p>Reserva Nacional del Manu</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
 
-
-
     )
     }
 
-export default CarruselSierra
+export default CarruselSelva

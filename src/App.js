@@ -7,7 +7,9 @@ import { ThemeProvider } from '@mui/material/styles';
 import theme from "./themeConfig";
 import Atractivos from './pages/Atractivos';
 import Form from './pages/Form/form';
-import Carrusel from './components/CarouselSierra';
+import CarruselSierra from './components/CarouselSierra';
+import CarruselSelva from './components/CarouselSelva';
+import CarruselCosta from './components/CarouselCosta';
 
 function App(){
     return(
@@ -21,8 +23,9 @@ function App(){
         
         
     
-
-<Carrusel/>
+<CarruselCosta/>
+<CarruselSierra/>
+<CarruselSelva/>
  </ThemeProvider>
         
     );
