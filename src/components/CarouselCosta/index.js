@@ -18,7 +18,7 @@ const CarruselCosta=()=>{
     />
     <Carousel.Caption>
       <h1>Lima</h1>
-      <p>Marcahuasi bOsque de Piedras</p>
+      <p>Marcahuasi Bosque de Piedras</p>
     </Carousel.Caption>
   </Carousel.Item>
 

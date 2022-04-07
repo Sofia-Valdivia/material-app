@@ -10,6 +10,7 @@ import Form from './pages/Form/form';
 import CarruselSierra from './components/CarouselSierra';
 import CarruselSelva from './components/CarouselSelva';
 import CarruselCosta from './components/CarouselCosta';
+import VistaLima from './pages/VistaLima';
 
 function App(){
     return(
@@ -26,6 +27,7 @@ function App(){
 <CarruselCosta/>
 <CarruselSierra/>
 <CarruselSelva/>
+<VistaLima/>
  </ThemeProvider>
         
     );

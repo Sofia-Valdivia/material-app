@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "../layouts/Header/Header";
 import Atractivos from "../pages/Atractivos"
 import Form from "../pages/Form/form";
+import VistaCosta from "../pages/VistaLima";
 
 
 const Router = () => {
@@ -14,6 +15,7 @@ const Router = () => {
    <NavBar/>
    <Route path="/" element={<Atractivos />} />
    <Route path="form" element={<Form />} />   
+   <Route path="VistaCosta" element={<VistaCosta />} />  
 
 
 </Route>       

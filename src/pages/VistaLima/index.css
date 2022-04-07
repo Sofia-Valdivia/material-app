@@ -1,0 +1,14 @@
+.card-turismo{
+    max-width: 300px;
+    max-height: 400px;
+    min-height: 400px;
+    border: solid;      
+}
+
+
+.img-costa{
+    min-height: 250px;
+    max-height: 250px;
+    object-fit: contain !important;
+    margin-top: 15px;
+}
