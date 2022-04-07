@@ -11,6 +11,7 @@ import CarruselSierra from './components/CarouselSierra';
 import CarruselSelva from './components/CarouselSelva';
 import CarruselCosta from './components/CarouselCosta';
 import VistaLima from './pages/VistaLima';
+import VistaIca from './pages/VistaIca';
 
 function App(){
     return(
@@ -28,6 +29,7 @@ function App(){
 <CarruselSierra/>
 <CarruselSelva/>
 <VistaLima/>
+<VistaIca/>
  </ThemeProvider>
         
     );
