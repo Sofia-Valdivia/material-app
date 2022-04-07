@@ -13,6 +13,7 @@ import CarruselCosta from './components/CarouselCosta';
 import VistaLima from './pages/VistaLima';
 import VistaIca from './pages/VistaIca';
 import VistaLoreto from './pages/VistaLoreto';
+import VistaAmazonas from './pages/VistaAmazonas';
 
 function App(){
     return(
@@ -32,6 +33,7 @@ function App(){
 <VistaLima/>
 <VistaIca/>
 <VistaLoreto/>
+<VistaAmazonas/>
  </ThemeProvider>
         
     );
