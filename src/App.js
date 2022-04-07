@@ -12,6 +12,7 @@ import CarruselSelva from './components/CarouselSelva';
 import CarruselCosta from './components/CarouselCosta';
 import VistaLima from './pages/VistaLima';
 import VistaIca from './pages/VistaIca';
+import VistaLoreto from './pages/VistaLoreto';
 
 function App(){
     return(
@@ -30,6 +31,7 @@ function App(){
 <CarruselSelva/>
 <VistaLima/>
 <VistaIca/>
+<VistaLoreto/>
  </ThemeProvider>
         
     );
