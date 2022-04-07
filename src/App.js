@@ -15,6 +15,7 @@ import VistaIca from './pages/VistaIca';
 import VistaLoreto from './pages/VistaLoreto';
 import VistaAmazonas from './pages/VistaAmazonas';
 import VistaPuno from './pages/VistaPuno';
+import VistaCusco from './pages/VistaCusco';
 
 function App(){
     return(
@@ -36,6 +37,7 @@ function App(){
 <VistaLoreto/>
 <VistaAmazonas/>
 <VistaPuno/>
+<VistaCusco/>
  </ThemeProvider>
         
     );
